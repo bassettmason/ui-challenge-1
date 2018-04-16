@@ -1,0 +1,13 @@
+header, aside, section, div, footer, li, .c, .d {
+  border: 1px solid #000
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-width: 480px;
+}
+
+

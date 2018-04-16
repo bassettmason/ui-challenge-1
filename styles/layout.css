@@ -1,0 +1,123 @@
+.a {
+  clear: both;
+  height: 75px;
+}
+
+.b {
+  
+  height: 150px;
+}
+
+.c {
+  
+  height: 125px;
+}
+.d {
+  
+  height: 125px;
+}
+
+.e, .g {
+  width: 50%;
+  float: left;
+}
+.f, .h {
+  width: 50%;
+  float: left
+}
+
+.i {
+  width: 100%;
+  height: 80px;
+
+}
+.list-container {
+  width: 100%;
+}
+
+
+.list {
+  width:50%;
+  height: 250px;
+  display: table-cell;
+}
+#i {
+  display:none;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+    max-width: 960px;
+    margin: 0px auto;
+  }
+  .a {
+    width: 100%;
+  }
+  .b {
+    float: left;
+    width: 200px; 
+    height: 600px;
+  }
+  
+  .e {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 25%;
+
+  }
+
+  .f {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 25%;
+
+  }
+
+  .g {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 25%;
+
+  }
+
+  .h {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 25%;
+
+  }
+  
+  .list {
+    display: block;
+    float: left;
+    height: 250px;
+    width: 25%;
+  }
+  article  {
+    width: 50%;
+    float: left;
+    height:100%;
+    
+  }
+  .c, .d {
+    height:100%;
+  }
+
+  .article {
+    width: 760px;
+    float: left;
+    height: 200px
+  }
+  .list-container {
+    width: 760px;
+  }
+  footer {
+    float: left;
+  }
+  
+}
